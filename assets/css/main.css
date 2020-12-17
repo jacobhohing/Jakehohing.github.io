@@ -1,4 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
 body
 {
-    background-color:gray;
+    font-family:Questrial;
+    height:3000px;
+    background-color: #F5B25B;
 }
+
+
+.navbar .navbar-brand
+{
+    font-size:2.2rem;
+    padding-left:4vw;
+}
+
+.navbar-nav .nav-link 
+{
+
+    margin-left:1vw;
+}
+
+.icon-nav
+{
+    position:fixed;
+    left:43%;
+    font-size:1.1rem;
+    white-space:no-wrap;
+    min-width:500px;
+    flex-direction:row;
+}
+
+.icon-nav .navbar-nav
+{
+  
+    white-space:no-wrap;
+    min-width:500px;
+    flex-direction:row;
+}
+
+.icon-link
+{
+    border:1px solid #212529;  
+    border-radius:100%;
+
+}
+
+.icon-link i
+{
+    padding:4px 6px; 
+}
+
+.icon-link:hover
+{
+    border:1px solid #0F1922;
+    border-radius:100%;
+    background-color:#0F1922;
+   
+    
+}
+
+.header
+{
+    background-color:#fff;
+}
+
+
+
+
+
+.main-container
+{
+    margin-top:4em;
+    padding:0px;
+
+
+}
+
+.active-hero-holder
+{
+    transition: background-color 0.5s ease;
+    background-color:#F5B25B!important;
+}
+
+#HTML-holder{
+    background-color:#8C40A2;
+}
+
+#CSS-holder{
+    background-color:#398B96;
+}
+
+#JS-holder{
+    background-color:#8A40A2;
+}
+
+#CF-holder{
+    background-color:#40AC75;
+}
+
+#SQL-holder{
+    background-color:#F5735B;
+}
+
+#HTML-holder .hero-div
+{
+    margin:20px 20px;
+    margin-top:40px;
+    min-height:24vw;
+    background-image: url("../images/HTML5_logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 38%;     
+}
+
+#CSS-holder .hero-div
+{
+    margin:20px 20px;
+    margin-top:40px;
+    min-height:24vw;
+    background-image: url("../images/CSS3_logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;     
+}
+
+#JS-holder .hero-div
+{
+    margin:20px 20px;
+    margin-top:40px;
+    min-height:24vw;
+    background-image: url("../images/Javascript_logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 42%;     
+}
+
+
+#CF-holder .hero-div
+{
+    margin:20px 20px;
+    margin-top:40px;
+    min-height:24vw;
+    background-image: url("../images/Coldfusion_logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;     
+}
+
+
+#SQL-holder .hero-div
+{
+    margin:20px 20px;
+    margin-top:40px;
+    min-height:24vw;
+    background-image: url("../images/SQL_logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;     
+}
+
+.content-row
+{
+    background-color:#F5B25B;
+}
+
+.hero-content
+{   
+    display:none;
+    margin-top:40px;
+    padding:40px;
+    color:#212529;
+}
+
+.hero-content h2
+{
+    font-size:3rem;
+}
+
+.hero-content p
+{
+    font-size: 1.4rem;;
+}
+.active-icon
+{
+    color:#FF831C;
+    float:right;
+    font-size:3rem;
+}
+
+.inactive-icon
+{
+    float:right;
+    color:#212529;
+    font-size:3rem;
+}
+/* Playing with Diagonals
+.hero-holder-side
+{
+    background-color:#F5B25B;
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+
+}
+
+.hero-HTML
+{
+    margin:20px 20px;
+    margin-top:40px;
+    min-height:400px;
+    background-image: url("../images/HTML5_logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;     
+}
+*/
+
