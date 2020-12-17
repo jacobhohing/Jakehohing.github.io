@@ -107,7 +107,7 @@ body
     margin:20px 20px;
     margin-top:40px;
     min-height:24vw;
-    background-image: url("../images/HTML5_logo.svg");
+    background-image: url("../images/HTML5_logo.svg?sanitize=true");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 38%;     
@@ -118,7 +118,7 @@ body
     margin:20px 20px;
     margin-top:40px;
     min-height:24vw;
-    background-image: url("../images/CSS3_logo.svg");
+    background-image: url("../images/CSS3_logo.svg?sanitize=true");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 70%;     
@@ -129,7 +129,7 @@ body
     margin:20px 20px;
     margin-top:40px;
     min-height:24vw;
-    background-image: url("../images/Javascript_logo.svg");
+    background-image: url("../images/Javascript_logo.svg?sanitize=true");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 42%;     
@@ -153,7 +153,7 @@ body
     margin:20px 20px;
     margin-top:40px;
     min-height:24vw;
-    background-image: url("../images/SQL_logo.svg");
+    background-image: url("../images/SQL_logo.svg?sanitize=true");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 60%;     
