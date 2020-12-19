@@ -166,7 +166,6 @@ body
     background-size: 50%;
 }
 
-
 #CF-holder .hero-div
 {
     opacity:1;
@@ -191,8 +190,7 @@ body
 	-o-transition:background-position 2s ease;
     transition:background-position 2s ease;    
     opacity:0;
-}
-	
+}	
 
 .content-row
 {
@@ -284,30 +282,24 @@ body
     height:500px;
     width:500px;
     border:1px solid #F5B25B;
-    border-radius:100%;
-    
+    border-radius:100%;    
 }
 
 .profile-content
-{
-    
-    color:#212529;
-    
+{   
+    color:#212529;  
 }
 
 .profile-content p
 {
    font-size:1.2rem;
-   padding:40px;
-    
+   padding:40px;   
 }
 
 .profile-content h2
 {
-
-   padding:40px;
-   padding-bottom:0px;
-    
+    padding:40px;
+    padding-bottom:0px;
 }
 
 .drop-content
