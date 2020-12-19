@@ -23,7 +23,7 @@ body
 .icon-nav
 {
     position:fixed;
-    left:43%;
+    left:41%;
     font-size:1.1rem;
     white-space:no-wrap;
     min-width:500px;
@@ -84,11 +84,9 @@ body
 {
 
 	color:#fff;
-	font-size:8rem;
-	line-height:120px;
-	padding:140px;
-	padding-top:140px;
-	padding-bottom:0px;
+	font-size:7em;
+	line-height:1em;
+    padding-top:120px;
 	-webkit-animation: fadeinfromleft 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadeinfromleft 2s; /* Firefox < 16 */
     -ms-animation: fadeinfromleft 2s; /* Internet Explorer */
@@ -98,11 +96,9 @@ body
 {
 	opacity:0;
 	color:#fff;
-	font-size:8rem;
-	line-height:120px;
-	padding:140px;
-	padding-top:0px;
-	padding-bottom:0px;
+	font-size:7em;
+	line-height:1em;
+
 	animation: fadeinfromleft 2s 1s forwards;
 	-webkit-animation: fadeinfromleft 2s 1s forwards; /* Safari, Chrome and Opera > 12.1 */  
 }
@@ -112,11 +108,9 @@ body
 {
 	opacity:0;
 	color:#fff;
-	font-size:2rem;
-	line-height:30px;
-	padding:140px;
-	padding-top:0px;
-	padding-bottom:0px;
+	font-size: 1.6em;
+	line-height:1em;
+	padding-bottom:120px;
 	animation: fadeinfromleft 2s 2s forwards;
 	-webkit-animation: fadeinfromleft 2s 1s forwards; /* Safari, Chrome and Opera > 12.1 */  
 }
@@ -132,66 +126,73 @@ body
 
 #HTML-holder{
     background-color:#313D74;
+   
 }
 
 #CSS-holder{
     background-color:#398B96;
+  
 }
 
 #JS-holder{
     background-color:#8A40A2;
+   
 }
 
 #CF-holder{
     background-color:#40AC75;
+    
 }
 
 #SQL-holder{
     background-color:#F5735B;
+ 
 }
 
 
 .hero-div
 {
-	position: relative;
+    position: relative;
+    height:100%;
+    
 }
 
 #HTML-holder .hero-div
 {
-    margin:20px 20px;
-    margin-top:40px;
-    min-height:20vw;
+   
+    opacity:1;
+    min-height:400px;
     background-image: url("../images/HTML5_logo.svg?sanitize=true");
     background-repeat: no-repeat;
 	background-position: 50% 50%;
 	-webkit-transition:background-position 2s ease;
 	-moz-transition:background-position 2s ease;
 	-o-transition:background-position 2s ease;
-	transition:background-position 2s ease;
+    transition:background-position 2s ease;
+    background-size: 46%;
 	
-    background-size: 10vw;     
+         
 }
 
 #CSS-holder .hero-div
 {
-    margin:20px 20px;
-    margin-top:40px;
-    min-height:20vw;
+    opacity:1;
+    min-height:400px;
     background-image: url("../images/CSS3_logo.svg?sanitize=true");
     background-repeat: no-repeat;
     background-position: 50% 50%;
 	-webkit-transition:background-position 2s ease;
 	-moz-transition:background-position 2s ease;
 	-o-transition:background-position 2s ease;
-	transition:background-position 2s ease;
-    background-size: 12vw;     
+    transition:background-position 2s ease;
+    background-size: 80%;
+   
 }
 
 #JS-holder .hero-div
 {
-    margin:20px 20px;
-    margin-top:40px;
-    min-height:20vw;
+    opacity:1;
+    min-height:400px;
     background-image: url("../images/Javascript_logo.svg?sanitize=true");
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -199,15 +200,14 @@ body
 	-moz-transition:background-position 2s ease;
 	-o-transition:background-position 2s ease;
 	transition:background-position 2s ease;
-    background-size: 8vw;     
+    background-size: 50%;
 }
 
 
 #CF-holder .hero-div
 {
-    margin:20px 20px;
-    margin-top:40px;
-    min-height:20vw;
+    opacity:1;
+    min-height:400px;
     background-image: url("../images/Coldfusion_logo.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -215,15 +215,14 @@ body
 	-moz-transition:background-position 2s ease;
 	-o-transition:background-position 2s ease;
 	transition:background-position 2s ease;
-    background-size: 10vw;     
+    background-size: 50%;
 }
 
 
 #SQL-holder .hero-div
 {
-    margin:20px 20px;
-    margin-top:40px;
-    min-height:20vw;
+    opacity:1;
+    min-height:400px;
     background-image: url("../images/SQL_logo.svg?sanitize=true");
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -231,7 +230,7 @@ body
 	-moz-transition:background-position 2s ease;
 	-o-transition:background-position 2s ease;
 	transition:background-position 2s ease;
-    background-size: 10vw;     
+    background-size: 60%;
 }
 
 
@@ -241,7 +240,10 @@ body
 	-webkit-transition:background-position 2s ease;
 	-moz-transition:background-position 2s ease;
 	-o-transition:background-position 2s ease;
-	transition:background-position 2s ease;
+    transition:background-position 2s ease;
+    
+    opacity:0;
+
 }
 	
 
@@ -278,11 +280,13 @@ body
 
 .hero-content h3
 {
+    display: none;
     font-size:1.2vw;
 }
 
 .hero-content p
 {
+    display: none;
     font-size: 1vw;
 }
 .active-icon
@@ -318,6 +322,47 @@ body
     background-size: 40%;     
 }
 */
+
+.about-section
+{
+    padding-top:80px;
+}
+.profile-img-container
+{
+    text-align:center;
+    padding-top:40px;
+}
+
+.profile-img
+{
+    height:500px;
+    width:500px;
+    border:1px solid #F5B25B;
+    border-radius:100%;
+    
+}
+
+.profile-content
+{
+    
+    color:#212529;
+    
+}
+
+.profile-content p
+{
+   font-size:1.2rem;
+   padding:40px;
+    
+}
+
+.profile-content h2
+{
+
+   padding:40px;
+   padding-bottom:0px;
+    
+}
 
 .drop-content
 {
@@ -459,6 +504,17 @@ body
 	width:100%;
 }
 
+/* footer */
+
+footer .justify-content-center
+{
+    width:100%;
+}
+
+footer .justify-content-center .nav-item
+{
+    font-size:2rem;
+}
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
