@@ -13,4 +13,4 @@ This Projects Includes four main pages (Index.html, Portfolio.html, Contact.html
 - Javascript/Jquery
 
 ## Contact
-project link [https://jacobhohing.github.io/JH-First-Code-Refactor/Develop/index.html](https://jacobhohing.github.io/JH-First-Code-Refactor/Develop/index.html)
+project link [https://github.com/jacobhohing/Jakehohing.github.io](https://github.com/jacobhohing/Jakehohing.github.io)
