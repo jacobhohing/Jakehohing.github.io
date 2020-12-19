@@ -2,7 +2,7 @@
 ## Personal Portfolio
 
 ## About This Project
-![Project Img](Assets/images/website-capture.PNG)
+![Project Img](assets/images/website-capture.PNG)
 The goal of this project is to build a Personal Portfolio to show off projects and to give a professional description of myself.
 
 
