@@ -148,21 +148,21 @@ body
 #HTML-holder .hero-div
 {  
     opacity:1; 
-    background-image: url("../images/HTML5_logo.svg?sanitize=true");  
+    background-image: url("../images/html5-logo.svg?sanitize=true");  
     background-size: 46%;	        
 }
 
 #CSS-holder .hero-div
 {
     opacity:1; 
-    background-image: url("../images/CSS3_logo.svg?sanitize=true");
+    background-image: url("../images/css3-logo.svg?sanitize=true");
     background-size: 80%;   
 }
 
 #JS-holder .hero-div
 {
     opacity:1;
-    background-image: url("../images/Javascript_logo.svg?sanitize=true");
+    background-image: url("../images/javascript-logo.svg?sanitize=true");
     background-size: 50%;
 }
 
@@ -170,7 +170,7 @@ body
 #CF-holder .hero-div
 {
     opacity:1;
-    background-image: url("../images/Coldfusion_logo.png");
+    background-image: url("../images/coldfusion-logo.png");
     background-size: 50%;
 }
 
@@ -178,7 +178,7 @@ body
 #SQL-holder .hero-div
 {
     opacity:1;
-    background-image: url("../images/SQL_logo.svg?sanitize=true");
+    background-image: url("../images/sql-logo.svg?sanitize=true");
     background-size: 60%;
 }
 
