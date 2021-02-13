@@ -524,3 +524,7 @@ footer .justify-content-center .nav-item
 }  
 
 
+.project-cards .card-link
+{
+    text-decoration: none;;
+}
