@@ -139,7 +139,7 @@ body
     background-repeat: no-repeat;
 	background-position: 50% 50%;
     
-    -webkit-transition:background-position 2s ease;
+    -webkit-transition: background-position 2s ease;
 	-moz-transition:background-position 2s ease;
 	-o-transition:background-position 2s ease;
     transition:background-position 2s ease;  
